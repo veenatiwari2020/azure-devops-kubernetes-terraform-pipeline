@@ -20,6 +20,6 @@ steps:
     echo added new line
   displayName: 'Run a multi-line script'
 - job: Job2
-steps:
+  steps:
 - script: echo  job 2 Hello, world changed by veena github!
   displayName: 'Run a two-line script'
