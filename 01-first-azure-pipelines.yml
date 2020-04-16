@@ -21,7 +21,7 @@ steps:
     echo added new line
   displayName: 'Run a multi-line script'
 
-- job: job1
+- job: job2
 steps:
 - script: echo  job 2 Hello, world changed by veena github!
   displayName: 'Run a one-line script'
