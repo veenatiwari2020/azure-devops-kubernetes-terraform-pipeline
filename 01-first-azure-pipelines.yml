@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 jobs:
-- job: job1
+- job: Job1
 steps:
 - script: echo job 1 Hello, world changed by veena github!
   displayName: 'Run a one-line script'
@@ -19,6 +19,7 @@ steps:
     echo See https://aka.ms/yaml
     echo added new line
   displayName: 'Run a multi-line script'
-- job: job2
+- job: Job2
+steps:
 - script: echo  job 2 Hello, world changed by veena github!
   displayName: 'Run a two-line script'
